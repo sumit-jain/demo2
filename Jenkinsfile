@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo "This is the build# $BUILD_NUMBER of demo $DEMO"
                 sh '''
-                    echo "Using multi line shell step
+                    echo "Using multi line shell step"
                     chmod +x test.sh
                     ./test.sh
                 '''
